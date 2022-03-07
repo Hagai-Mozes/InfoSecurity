@@ -1,0 +1,4 @@
+In two words: concat strings(/arrays)
+The Assembly program finds the first character that equal to 0 in the array the EDI points to, this is by convention end of string (- array of characters) ('/0' character = 0 in ASCII).
+then, the program copy the array that ESI points to until the end, in the place where EDI ends.
+note: I used the words "character","array","string" to describe the data but of course it is just bytes and we can interpret it in many ways.
